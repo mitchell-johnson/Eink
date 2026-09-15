@@ -1,0 +1,43 @@
+# Local Python and JavaScript environments
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+node_modules/
+.wrangler/
+
+# Private runtime and signing configuration
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.private/
+private_keys/
+secrets*.json
+**/Local.xcconfig
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+
+# Build products, diagnostics, local IDE state
+build/
+dist/
+tmp/
+DerivedData/
+*.log
+*.xcresult/
+*.ipa
+*.xcarchive/
+**/xcuserdata/
+.DS_Store
+custom-preview.png
+demo.png
+preview.png
+
+# Downloaded supplier material
+*.apk
+*.pdf

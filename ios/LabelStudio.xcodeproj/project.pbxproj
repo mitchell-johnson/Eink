@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14783A809FD3E62AF2595CC1 /* StudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F33C9CFF959EBEC6D777DD /* StudioView.swift */; };
+		32747CB60EA52A1A36548E95 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D4FCB1B3B02A94C0E65D3AE0 /* PrivacyInfo.xcprivacy */; };
+		328FC78718FB02F15B03CFBD /* GenerationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E33E51C22EDFA65A41E6D0 /* GenerationClient.swift */; };
+		37728D6CABCD09BC04879455 /* LabelArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5660E45170B143C7BA914 /* LabelArtwork.swift */; };
+		3D2AB3235351186F1589332F /* LabelStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59281D1599C627C66B40E3D6 /* LabelStudioApp.swift */; };
+		4712C1848C4A8CBEDB0965F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43AF36456608089B110D906 /* Foundation.framework */; };
+		4BA4B4B91B3516831166E93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43AF36456608089B110D906 /* Foundation.framework */; };
+		53530B833C488EA2A8298E43 /* LabelBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1B527DA8A566C68F82B71 /* LabelBluetooth.swift */; };
+		782A01F7EBF3E9961790CDFA /* ConnectionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F7C96DB71540858D6BF17 /* ConnectionSettings.swift */; };
+		7C393583EFA3152DE43DE18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43AF36456608089B110D906 /* Foundation.framework */; };
+		81B6836E70132D3C3DC8D08D /* live-label-generated.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EADB96B2F9A2BEB2636806C /* live-label-generated.png */; };
+		869358456F6FA6510F7E7EC1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ACC197F9FBDEEDC8BE450C /* SettingsView.swift */; };
+		9A6BD627F3E4E308A1EE217A /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DEF239A93FBF13A4BA892 /* ConnectionTests.swift */; };
+		A3B131F97C76D0E83B72400B /* LabelKeyStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD8B0B871C5BB5DCD1D24C /* LabelKeyStoreTests.swift */; };
+		A655BF913A3117EAA2EA6F22 /* LabelKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75A6E1051835922D1F4DA4A /* LabelKeyStore.swift */; };
+		BA6D967D9D45BBE96840B643 /* StudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54390F054E680EC1377B0352 /* StudioUITests.swift */; };
+		BD08F83558594AE864B43A63 /* StudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652D3AA79BD59BECBB13B7BF /* StudioModel.swift */; };
+		BE5489EA7C632E7B69BC6DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8249FBB7648A64A956AB721C /* Assets.xcassets */; };
+		D6D28424F3762ED933B54BAB /* ArtworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604949270D0A8B5BC088131C /* ArtworkTests.swift */; };
+		D9F2C98FB4D68CD2E77FD6B2 /* LabelProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF2C8B68341947D84737377 /* LabelProtocolTests.swift */; };
+		EC7FC326F9C12314B5246597 /* LabelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC26342396D5D97D6EB3BB3C /* LabelProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B72046D00D27A57A9A5DBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC58F552AFD0A04F8FFEE70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C00F8DC00F16B9EE2438E0A;
+			remoteInfo = LabelStudio;
+		};
+		7CCC5A26E0CA0CA0FB8B2FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC58F552AFD0A04F8FFEE70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C00F8DC00F16B9EE2438E0A;
+			remoteInfo = LabelStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0187BF5DEF0CE5140DB2D730 /* LabelStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		021DEF239A93FBF13A4BA892 /* ConnectionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		1197651CB1EE498800455341 /* LabelStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EADB96B2F9A2BEB2636806C /* live-label-generated.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "live-label-generated.png"; path = "Resources/live-label-generated.png"; sourceTree = "<group>"; };
+		22ACC197F9FBDEEDC8BE450C /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		2CC1B527DA8A566C68F82B71 /* LabelBluetooth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelBluetooth.swift; path = Bluetooth/LabelBluetooth.swift; sourceTree = "<group>"; };
+		4DBD8B0B871C5BB5DCD1D24C /* LabelKeyStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelKeyStoreTests.swift; sourceTree = "<group>"; };
+		54390F054E680EC1377B0352 /* StudioUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StudioUITests.swift; sourceTree = "<group>"; };
+		59281D1599C627C66B40E3D6 /* LabelStudioApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelStudioApp.swift; sourceTree = "<group>"; };
+		604949270D0A8B5BC088131C /* ArtworkTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArtworkTests.swift; sourceTree = "<group>"; };
+		652D3AA79BD59BECBB13B7BF /* StudioModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StudioModel.swift; path = Core/StudioModel.swift; sourceTree = "<group>"; };
+		70E33E51C22EDFA65A41E6D0 /* GenerationClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenerationClient.swift; path = Services/GenerationClient.swift; sourceTree = "<group>"; };
+		71A5660E45170B143C7BA914 /* LabelArtwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelArtwork.swift; path = Core/LabelArtwork.swift; sourceTree = "<group>"; };
+		76F33C9CFF959EBEC6D777DD /* StudioView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StudioView.swift; path = Views/StudioView.swift; sourceTree = "<group>"; };
+		8249FBB7648A64A956AB721C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Defaults.xcconfig; sourceTree = "<group>"; };
+		B75A6E1051835922D1F4DA4A /* LabelKeyStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelKeyStore.swift; path = Services/LabelKeyStore.swift; sourceTree = "<group>"; };
+		BB6F03429F3B6494A9DA55FA /* LabelStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC26342396D5D97D6EB3BB3C /* LabelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelProtocol.swift; path = Core/LabelProtocol.swift; sourceTree = "<group>"; };
+		D4FCB1B3B02A94C0E65D3AE0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ECF2C8B68341947D84737377 /* LabelProtocolTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelProtocolTests.swift; sourceTree = "<group>"; };
+		EE1F7C96DB71540858D6BF17 /* ConnectionSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectionSettings.swift; path = Services/ConnectionSettings.swift; sourceTree = "<group>"; };
+		F43AF36456608089B110D906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11CF60EB6E38CB6EE9D9FBDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4712C1848C4A8CBEDB0965F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0550C9A6727B5876729D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA4B4B91B3516831166E93D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3399A9965CD064F49EF24B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C393583EFA3152DE43DE18A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072727B9ECD574C28C536ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1197651CB1EE498800455341 /* LabelStudio.app */,
+				BB6F03429F3B6494A9DA55FA /* LabelStudioTests.xctest */,
+				0187BF5DEF0CE5140DB2D730 /* LabelStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200D6D3870238AA47CC5BB55 = {
+			isa = PBXGroup;
+			children = (
+				072727B9ECD574C28C536ED5 /* Products */,
+				B886E5E5E59A55E4ED079421 /* Frameworks */,
+				D9DA122BA72925A58A1725D0 /* Config */,
+				8521A0218EE0F59AF836563F /* LabelStudio */,
+				22369E4368E81CDCB61C4858 /* LabelStudioTests */,
+				33357FBB48736C28AFE772DA /* LabelStudioUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		22369E4368E81CDCB61C4858 /* LabelStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				604949270D0A8B5BC088131C /* ArtworkTests.swift */,
+				021DEF239A93FBF13A4BA892 /* ConnectionTests.swift */,
+				4DBD8B0B871C5BB5DCD1D24C /* LabelKeyStoreTests.swift */,
+				ECF2C8B68341947D84737377 /* LabelProtocolTests.swift */,
+				1EADB96B2F9A2BEB2636806C /* live-label-generated.png */,
+			);
+			name = LabelStudioTests;
+			path = LabelStudioTests;
+			sourceTree = "<group>";
+		};
+		33357FBB48736C28AFE772DA /* LabelStudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54390F054E680EC1377B0352 /* StudioUITests.swift */,
+			);
+			name = LabelStudioUITests;
+			path = LabelStudioUITests;
+			sourceTree = "<group>";
+		};
+		8521A0218EE0F59AF836563F /* LabelStudio */ = {
+			isa = PBXGroup;
+			children = (
+				2CC1B527DA8A566C68F82B71 /* LabelBluetooth.swift */,
+				71A5660E45170B143C7BA914 /* LabelArtwork.swift */,
+				CC26342396D5D97D6EB3BB3C /* LabelProtocol.swift */,
+				652D3AA79BD59BECBB13B7BF /* StudioModel.swift */,
+				59281D1599C627C66B40E3D6 /* LabelStudioApp.swift */,
+				EE1F7C96DB71540858D6BF17 /* ConnectionSettings.swift */,
+				70E33E51C22EDFA65A41E6D0 /* GenerationClient.swift */,
+				B75A6E1051835922D1F4DA4A /* LabelKeyStore.swift */,
+				22ACC197F9FBDEEDC8BE450C /* SettingsView.swift */,
+				76F33C9CFF959EBEC6D777DD /* StudioView.swift */,
+				8249FBB7648A64A956AB721C /* Assets.xcassets */,
+				D4FCB1B3B02A94C0E65D3AE0 /* PrivacyInfo.xcprivacy */,
+			);
+			name = LabelStudio;
+			path = LabelStudio;
+			sourceTree = "<group>";
+		};
+		B886E5E5E59A55E4ED079421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24CE1EE30D3C956FBDACCB2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C24CE1EE30D3C956FBDACCB2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F43AF36456608089B110D906 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9DA122BA72925A58A1725D0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C00F8DC00F16B9EE2438E0A /* LabelStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1BEC410B281D184AF0E1C9 /* Build configuration list for PBXNativeTarget "LabelStudio" */;
+			buildPhases = (
+				D31604E23A323DB91E1E1C1A /* Sources */,
+				45B0550C9A6727B5876729D3 /* Frameworks */,
+				187F9081EB42B6CACDE59A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelStudio;
+			productName = LabelStudio;
+			productReference = 1197651CB1EE498800455341 /* LabelStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ED069D98248C9D0CB82923D /* LabelStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D95C241F2B7E99EF4EC3711 /* Build configuration list for PBXNativeTarget "LabelStudioUITests" */;
+			buildPhases = (
+				95132B3F0C7E539B18A196D8 /* Sources */,
+				11CF60EB6E38CB6EE9D9FBDD /* Frameworks */,
+				F1E5A9873F837D1690568D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5888C29EF208749086678 /* PBXTargetDependency */,
+			);
+			name = LabelStudioUITests;
+			productName = LabelStudioUITests;
+			productReference = 0187BF5DEF0CE5140DB2D730 /* LabelStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B3E14B597059B5A8846A284E /* LabelStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19BCFF70AA557568FB4B9B9 /* Build configuration list for PBXNativeTarget "LabelStudioTests" */;
+			buildPhases = (
+				EC41D61D9874F993B588A980 /* Sources */,
+				F3399A9965CD064F49EF24B4 /* Frameworks */,
+				62B4C8CBAEEECEEA599FC5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD29CEA7395E0FA2F2839A02 /* PBXTargetDependency */,
+			);
+			name = LabelStudioTests;
+			productName = LabelStudioTests;
+			productReference = BB6F03429F3B6494A9DA55FA /* LabelStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC58F552AFD0A04F8FFEE70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = FC8654DFDB71F3150C440C8D /* Build configuration list for PBXProject "LabelStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200D6D3870238AA47CC5BB55;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 072727B9ECD574C28C536ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C00F8DC00F16B9EE2438E0A /* LabelStudio */,
+				B3E14B597059B5A8846A284E /* LabelStudioTests */,
+				6ED069D98248C9D0CB82923D /* LabelStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187F9081EB42B6CACDE59A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5489EA7C632E7B69BC6DE1 /* Assets.xcassets in Resources */,
+				32747CB60EA52A1A36548E95 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B4C8CBAEEECEEA599FC5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6836E70132D3C3DC8D08D /* live-label-generated.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E5A9873F837D1690568D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95132B3F0C7E539B18A196D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6D967D9D45BBE96840B643 /* StudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31604E23A323DB91E1E1C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53530B833C488EA2A8298E43 /* LabelBluetooth.swift in Sources */,
+				37728D6CABCD09BC04879455 /* LabelArtwork.swift in Sources */,
+				EC7FC326F9C12314B5246597 /* LabelProtocol.swift in Sources */,
+				BD08F83558594AE864B43A63 /* StudioModel.swift in Sources */,
+				3D2AB3235351186F1589332F /* LabelStudioApp.swift in Sources */,
+				782A01F7EBF3E9961790CDFA /* ConnectionSettings.swift in Sources */,
+				328FC78718FB02F15B03CFBD /* GenerationClient.swift in Sources */,
+				A655BF913A3117EAA2EA6F22 /* LabelKeyStore.swift in Sources */,
+				869358456F6FA6510F7E7EC1 /* SettingsView.swift in Sources */,
+				14783A809FD3E62AF2595CC1 /* StudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC41D61D9874F993B588A980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D28424F3762ED933B54BAB /* ArtworkTests.swift in Sources */,
+				9A6BD627F3E4E308A1EE217A /* ConnectionTests.swift in Sources */,
+				A3B131F97C76D0E83B72400B /* LabelKeyStoreTests.swift in Sources */,
+				D9F2C98FB4D68CD2E77FD6B2 /* LabelProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA5888C29EF208749086678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LabelStudio;
+			target = 6C00F8DC00F16B9EE2438E0A /* LabelStudio */;
+			targetProxy = 5B72046D00D27A57A9A5DBC9 /* PBXContainerItemProxy */;
+		};
+		FD29CEA7395E0FA2F2839A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LabelStudio;
+			target = 6C00F8DC00F16B9EE2438E0A /* LabelStudio */;
+			targetProxy = 7CCC5A26E0CA0CA0FB8B2FC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2326174D0F71721C45278DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56594E8CFCFB22952C9771BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudioTests";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabelStudio";
+			};
+			name = Debug;
+		};
+		9DA7B2E0B13A4122423F3618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudioTests";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabelStudio";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C0CF0F22DCFA2DEF55EE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AEE47CBD1CEFBD417314CCE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudioUITests";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = LabelStudio;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FDDE0947655EC9A19F0D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LabelStudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudio";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4DEF68B2B188DDD76FF0974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LabelStudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudio";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D1706C1012EE843CFA218E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6158B3F3B478F61019CEF8 /* Defaults.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).LabelStudioUITests";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = LabelStudio;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D95C241F2B7E99EF4EC3711 /* Build configuration list for PBXNativeTarget "LabelStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE47CBD1CEFBD417314CCE3 /* Release */,
+				F6D1706C1012EE843CFA218E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19BCFF70AA557568FB4B9B9 /* Build configuration list for PBXNativeTarget "LabelStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA7B2E0B13A4122423F3618 /* Release */,
+				56594E8CFCFB22952C9771BC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1BEC410B281D184AF0E1C9 /* Build configuration list for PBXNativeTarget "LabelStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DEF68B2B188DDD76FF0974 /* Release */,
+				B2FDDE0947655EC9A19F0D85 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8654DFDB71F3150C440C8D /* Build configuration list for PBXProject "LabelStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326174D0F71721C45278DE0 /* Debug */,
+				A6C0CF0F22DCFA2DEF55EE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC58F552AFD0A04F8FFEE70C /* Project object */;
+}

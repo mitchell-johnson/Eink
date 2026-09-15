@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "label-image-service",
+  "workers_dev": true,
+  "preview_urls": false,
+  "main": "src/index.ts",
+  // Latest date supported by the installed workerd release (2026-09-11).
+  "compatibility_date": "2026-09-11",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
+  "secrets": { "required": ["APP_ACCESS_TOKEN", "OPENAI_API_KEY"] },
+  "durable_objects": {
+    "bindings": [
+      { "name": "JOBS", "class_name": "ImageJob" },
+      { "name": "ADMISSION", "class_name": "Admission" }
+    ]
+  },
+  "exports": {
+    "ImageJob": { "type": "durable-object", "storage": "sqlite" },
+    "Admission": { "type": "durable-object", "storage": "sqlite" }
+  },
+  "r2_buckets": [{ "binding": "IMAGES", "bucket_name": "label-images" }]
+}
